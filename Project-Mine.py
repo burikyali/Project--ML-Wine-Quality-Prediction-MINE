@@ -16,11 +16,16 @@ import seaborn as sns   #plots
 from sklearn.model_selection import train_test_split   #for splitting the data  into training and test data
 from sklearn.ensemble import RandomForestClassifier   #random forest is an ensemble model. (Decision Tree Ensemble model)
 from sklearn.metrics import accuracy_score #accuracy score to show how well our model performs
+import warnings
+warnings.filterwarnings('ignore')
 
 """Step 2 : Data Collection"""
 
 #loading dataset (Winequality to pandas dataframe)
 wine_dataset =pd.read_csv('/content/winequality-red.csv') #read_csv reads the csv file and loads it into a dataframe
+
+from google.colab import drive
+drive.mount('/content/drive')
 
 #checking no. of rows and columns in dataset
 wine_dataset.shape
