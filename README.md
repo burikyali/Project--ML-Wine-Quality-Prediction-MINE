@@ -1,4 +1,4 @@
 AMRITA VISHWA VIDYAPEETHAM MATHS SEM PROJECT
- 
- 
-Wine quaility prediction Using Both Random Forest Classifier And Logistic Regression. Just an Extention of the other Wine quality Prediction Repo Of Mine.
+
+Wine quality prediction using both Random Forest Classifier and Logistic Regression.
+Just an extention of the other Wine Quality repo of mine.
